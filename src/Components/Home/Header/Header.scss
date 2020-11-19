@@ -1,0 +1,59 @@
+@import '../../../Style/Style';
+
+.header-wrapper{
+    background-image: url(../../../images/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 550px;
+  }
+  .header-text{
+    font-family: 'Monoton', cursive;
+    color: $brand-color;
+    font-weight: 600;
+    word-spacing: 15px;
+    padding-top: 180px;
+    margin-bottom: -5px;
+  }
+  .learn{
+    background-image: linear-gradient(to right, #7ec7f5, #23a6f8);
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgba(16, 107, 163, 0.5);
+    margin-bottom: $header-card-bottom-margin;
+  }
+  .explore{
+    background-image: linear-gradient(to right, #f5e174, #eccf2b);
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgba(218, 188, 23, 0.5);
+    margin-bottom: $header-card-bottom-margin;
+  }
+  .earn{
+    background-image: linear-gradient(to right, #f781c9, #f527a6);
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgba(172, 16, 112, 0.5);
+    margin-bottom: $header-card-bottom-margin;
+  }
+  .header-card{
+    width: 65%;
+    float: right;
+    margin-top: 60px;
+  }
+  .learn>h3, .explore>h3, .earn>h3{
+    font-family: 'Alatsi', sans-serif;
+  }
+  .register-btn>button{
+    background: none;
+    outline: none;
+    border: 2px solid $brand-color;
+    padding: 8px 50px;
+    margin-top: 20px;
+    color: #f527a6;
+    font-weight: 600;
+  }
+  .register-btn>button:hover{
+    background-color: $brand-color;
+  
+  }
