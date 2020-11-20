@@ -2,7 +2,7 @@ import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Menubar.scss';
-import logo from '../../images/logo/logo-2.png'
+import logo from '../../../images/logo/logo-2.png'
 
 const Menubar = () => {
     return (
