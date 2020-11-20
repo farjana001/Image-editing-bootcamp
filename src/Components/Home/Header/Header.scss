@@ -43,6 +43,7 @@
   }
   .learn>h3, .explore>h3, .earn>h3{
     font-family: 'Alatsi', sans-serif;
+    color: white;
   }
   .register-btn>button{
     background: none;
@@ -57,3 +58,28 @@
     background-color: $brand-color;
   
   }
+
+
+  // for responsive
+  @media screen and (max-width: 925px){
+    .header-text{
+      padding-top: 130px;
+      font-size: 60px;
+    }
+    .header-card{
+      margin-top: 40px;
+    }
+}
+
+  @media screen and (max-width: 767px){
+    .header-text{
+      padding-top: 60px;
+      font-size: 50px;
+    }
+    .header-card{
+      margin-top: 40px;
+    }
+    .learn, .explore, .earn{
+      padding: 10px;
+    }
+}
